@@ -1,0 +1,16 @@
+{
+    "name": "toyi/toyi",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Src\\Controller\\": "src/controller",
+            "Src\\Models\\": "src/models"
+        }
+    },
+    "authors": [
+        {
+            "name": "toyi",
+            "email": "francoistoyi4@gmail.com"
+        }
+    ]
+}
