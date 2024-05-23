@@ -1,5 +1,10 @@
 {
     "name": "toyi/toyi",
+    "description": "Mon projet PHP génial",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Src\\": "src/",
