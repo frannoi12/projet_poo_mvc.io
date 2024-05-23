@@ -9,4 +9,6 @@ return array(
     'Src\\Models\\' => array($baseDir . '/src/models'),
     'Src\\Controller\\' => array($baseDir . '/src/controller'),
     'Src\\' => array($baseDir . '/src'),
+    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );
