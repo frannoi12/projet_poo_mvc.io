@@ -1,15 +1,11 @@
 {
     "name": "toyi/toyi",
     "description": "Mon projet PHP génial",
-    "require": {
-        "php": "^7.4"
-    },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Src\\": "src/",
-            "Src\\Controller\\": "src/controller",
-            "Src\\Models\\": "src/models"
+            "Src\\Controller\\": "src/controller/",
+            "Src\\Models\\": "src/models/"
         }
     },
     "authors": [
@@ -17,5 +13,9 @@
             "name": "toyi",
             "email": "francoistoyi4@gmail.com"
         }
-    ]
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    }
 }
